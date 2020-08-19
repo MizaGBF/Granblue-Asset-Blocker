@@ -1,6 +1,6 @@
 var Background = (function(self){
 
-    let whitelist = ['attack', 'button', '/c/', 'summon', 'abilit', 'status', 'mode_gauge_yel', '/item/', 'raid_parts_target', 'presage'];
+    let whitelist = ['attack', 'button', '/c/', 'summon', 'abilit', 'status', 'mode_gauge_yel', '/item/', 'raid_parts_target', 'presage', '/be.png'];
 
     function urlcheck(url){
         var index = url.indexOf("?s=");
