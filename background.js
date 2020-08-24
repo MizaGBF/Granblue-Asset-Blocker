@@ -1,6 +1,6 @@
 var Background = (function(self){
 
-    let whitelist = ['attack', 'button', '/c/', 'summon', 'abilit', 'status', 'mode_gauge_yel', '/item/', 'raid_parts_target', 'presage', '/be.png'];
+    let whitelist = ['attack', 'button', '/c/', 'summon', 'abilit', 'status', 'mode_gauge_yel', '/item/', 'raid_parts_target', 'presage', '/be.png', '/assets/npc/quest/3', '/assets/leader/quest/'];
 
     function urlcheck(url){
         var index = url.indexOf("?s=");
