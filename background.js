@@ -18,12 +18,12 @@ var Background = (function(self){
         function(detail){
             if(urlcheck(detail.url)) return {cancel: true};
         },
-        {urls: ["*://game-a.granbluefantasy.jp/*",
-           "*://game-a1.granbluefantasy.jp/*",
-           "*://game-a2.granbluefantasy.jp/*",
-           "*://game-a3.granbluefantasy.jp/*",
-           "*://game-a4.granbluefantasy.jp/*",
-           "*://game-a5.granbluefantasy.jp/*"]},
+        {urls: ["*://prd-game-a-granbluefantasy.akamaized.net/*",
+           "*://prd-game-a1-granbluefantasy.akamaized.net/*",
+           "*://prd-game-a2-granbluefantasy.akamaized.net/*",
+           "*://prd-game-a3-granbluefantasy.akamaized.net/*",
+           "*://prd-game-a4-granbluefantasy.akamaized.net/*",
+           "*://prd-game-a5-granbluefantasy.akamaized.net/*"]},
         ["blocking"]
     );
 })(window);
